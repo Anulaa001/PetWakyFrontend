@@ -1,7 +1,7 @@
 import React from 'react';
 import './Map.css';
 import * as data from "../data/pet-object-park.json";
-import { MapContainer, TileLayer, Marker} from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 import L from 'leaflet';
 
 const parkIcon = L.divIcon({
@@ -35,9 +35,12 @@ function MapToShow() {
             object.properties.LON
           ]}
      
-         icon={parkIcon}
-       
-        />
+         icon={parkIcon}>
+         <Popup>
+        <h1>{object.properties.NAME}</h1>
+        <p>{object.properties.ADDRESS}</p>
+       </Popup>
+        </Marker>
       ))}
            {data.vetObjects.map(object => (
             
@@ -50,7 +53,12 @@ function MapToShow() {
          
              icon={medIcon}
            
-            />
+            >
+              <Popup>
+        <h1>{object.properties.NAME}</h1>
+        <p>{object.properties.ADDRESS}</p>
+       </Popup>
+        </Marker>
           ))}
           
        </MapContainer>

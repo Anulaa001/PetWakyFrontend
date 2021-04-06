@@ -1,0 +1,32 @@
+{
+    "parkObjects": [
+      
+        {
+        "type": "Park",
+        "properties": {
+            "ID": 2,
+            "NAME": "Wybieg dla psów",
+            "ADDRESS": "Ul. Wilanowska",
+            "CITY": "Gdańsk",
+            "DESCRIPTION": "Wybieg dla psów",
+            "LAT": "54.336475286427735",
+            "LON": "18.603972590581293"
+            }
+        }],
+        "vetObjects": [
+        {
+            "type": "Vet",
+            "properties": {
+                "ID": 21,
+                "NAME": "Borcowski, Popławski Przychodnia Weterynaryjna",
+                "ADDRESS": "Bitwy Oliwskiej 28, 80-339 Gdańsk",
+                "CITY": "Gdańsk",
+                "DESCRIPTION": "Weterynarz, 8-22",
+                "LAT": "54.420156528507434",
+                "LON": "18.566916684446447"
+                }
+                 
+            }
+       
+    ]
+}

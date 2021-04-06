@@ -1,4 +1,26 @@
-.leaflet-container {
+.maptoshow-cont{
     width:100%;
-    height: 300px;
+    height: 400px;  
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;  
+}
+.maptoshow-cont .leaflet-container {
+    width: 70%;
+    height: 400px;
+    margin-right: 0;
+}
+
+.maptoshow-cont .map-col2 {
+    width: 30%;
+
+}
+.icon-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: #FFFF;
+    border-radius: 50%;
 }

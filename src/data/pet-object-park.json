@@ -28,5 +28,118 @@
                  
             }
        
-    ]
+    ],
+    "spaObjects": [
+        {
+            "type": "Spa",
+            "properties": {
+                "ID": 31,
+                "NAME": "Doggie House - Miejsce Psiej Metamorfozy",
+                "ADDRESS": "Podkarpacka 19, 80-292 Gdańsk",
+                "CITY": "Gdańsk",
+                "DESCRIPTION": "Fryzjer dla zwierząt",
+                "LAT": "54.376557731782746",
+                "LON": "18.566654763608703"
+                }
+            },
+            {
+                "type": "Spa",
+                "properties": {
+                    "ID": 32,
+                    "NAME": "Milan Pet SPA ",
+                    "ADDRESS": "Międzygwiezdna 2/4a, 80-299  Gdańsk",
+                    "CITY": "Gdańsk",
+                    "DESCRIPTION": "Strzyżenie i pielęgnacja Psów. Psia odnowa",
+                    "LAT": "54.41704042679729",
+                    "LON": "18.479428044318848"
+                    }
+                },
+                {
+                    "type": "Spa",
+                    "properties": {
+                        "ID": 33,
+                        "NAME": "Salon Pasja",
+                        "ADDRESS": "Bulońska 3A, 80-288 Gdańsk",
+                        "CITY": "Gdańsk",
+                        "DESCRIPTION": "Fryzjer dla psów Groomer",
+                        "LAT": "54.35609177510436",
+                        "LON": "18.57682332768376"
+                        }
+                    },
+                    {
+                        "type": "Spa",
+                        "properties": {
+                            "ID": 34,
+                            "NAME": "Happy Dog",
+                            "ADDRESS": "Łódzka 50, 80-180 Gdańsk",
+                            "CITY": "Gdańsk",
+                            "DESCRIPTION": "Fryzjer dla psów",
+                            "LAT": "54.32885737115071",
+                            "LON": "18.597371258080823"
+                            }
+                        },
+                        {
+                            "type": "Spa",
+                            "properties": {
+                                "ID": 35,
+                                "NAME": "Strzyżenie i Pielęgnacja Psów Cztert Łapy Małgorzata Snopińska",
+                                "ADDRESS": "Aleja Niepodległości 718, 81-851 Sopot",
+                                "CITY": "Sopot",
+                                "DESCRIPTION": "Fryzjer dla psów",
+                                "LAT": "54.43482200110463",
+                                "LON": "18.560760378648567"
+                                }
+                            },
+                            {
+                                "type": "Spa",
+                                "properties": {
+                                    "ID": 36,
+                                    "NAME": "Domowe Spa Dla Małych Psów",
+                                    "ADDRESS": "Oskara Kolberga 31/86, 81-881 Sopot",
+                                    "CITY": "Sopot",
+                                    "DESCRIPTION": "Fryzjer dla małych psów",
+                                    "LAT": "54.45631681271722",
+                                    "LON": "18.527999885346677"
+                                    }
+                                },
+                                {
+                                    "type": "Spa",
+                                    "properties": {
+                                        "ID": 37,
+                                        "NAME": "Izabela Sokołowska - Pod włos",
+                                        "ADDRESS": "Bohaterów Monte Cassino 25/11, 81-759 Sopot",
+                                        "CITY": "Sopot",
+                                        "DESCRIPTION": "Fryzjer dla psów",
+                                        "LAT": "54.44365906508755",
+                                        "LON": "18.562176903784724"
+                                        }
+                                    },
+                                    {
+                                        "type": "Spa",
+                                        "properties": {
+                                            "ID": 38,
+                                            "NAME": "Twoje Spa dla psa",
+                                            "ADDRESS": "Morska 111, 81-222 Gdynia",
+                                            "CITY": "Gdynia",
+                                            "DESCRIPTION": "strzyżenie psów, pielęgnacja zwierząt domowych",
+                                            "LAT": "54.529390989603854",
+                                            "LON": "18.503812260541082"
+                                            }
+                                        },
+                                        {
+                                            "type": "Spa",
+                                            "properties": {
+                                                "ID": 38,
+                                                "NAME": "Prapso Spa dla Psa",
+                                                "ADDRESS": "Antoniego Abrahama 7c Pogórze Górne, 81-198 Gdynia",
+                                                "CITY": "Gdynia",
+                                                "DESCRIPTION": "Fryzjer dla psów",
+                                                "LAT": "54.56377271597836",
+                                                "LON": "18.487093609344925"
+                                                }
+                                            }
+
+   
+]
 }
+

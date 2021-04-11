@@ -1,6 +1,7 @@
 import './App.css';
 import Topbar from './components/Topbar';
 import MapToShow from './components/MapToShow';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
        <div className="col-2"></div>
      </div>
      <MapToShow/>
+     <Footer/>
     </div>
+   
   );
 }
 

@@ -10,6 +10,12 @@ const parkIcon = L.divIcon({
   iconSize: [30, 42],
   iconAnchor: [15, 42]
 });
+const spaIcon = L.divIcon({
+  className: 'custom-div-icon',
+  html: "<div class='icon-background' style='background-color: blue; color:white;'><i class='fa fa-bath'></i></div>",
+  iconSize: [30, 42],
+  iconAnchor: [15, 42]
+});
 const medIcon = L.divIcon({
   className: 'custom-div-icon',
   html: "<div class='icon-background' style='background-color: red;color:white;'><i class='fa fa-heartbeat'></i></div>",
@@ -18,7 +24,19 @@ const medIcon = L.divIcon({
 });
 function MapToShow() {
     return (
+      
       <div className="maptoshow-cont">
+        <div className="map-col2">
+         <h1>Find pet-friendly place in Trojmiasto</h1>
+         <ul >
+           <li><i class='fa fa-bath'></i> Spa</li>
+           <li><i class='fa fa-heartbeat'></i> Vet</li>
+           <li><i class='fa fa-tree'></i> Playground</li>
+           <li><i class='fa fa-shopping-basket'></i> Shop</li>
+         </ul>
+<h2>All places in one map </h2>
+
+       </div>
         
        <MapContainer center={[54.352024, 18.646639]} zoom={12} scrollWheelZoom={false}>
           <TileLayer
@@ -28,7 +46,7 @@ function MapToShow() {
          
           {data.parkObjects.map(object => (
             
-        <Marker
+        <Marker id="park"
           key={object.properties.ID}
           position={[
             object.properties.LAT,
@@ -44,7 +62,7 @@ function MapToShow() {
       ))}
            {data.vetObjects.map(object => (
             
-            <Marker
+            <Marker id="vet"
               key={object.properties.ID}
               position={[
                 object.properties.LAT,
@@ -60,16 +78,27 @@ function MapToShow() {
        </Popup>
         </Marker>
           ))}
+ {data.spaObjects.map(object => (
+            
+<Marker id="spa"
+              key={object.properties.ID}
+              position={[
+                object.properties.LAT,
+                object.properties.LON
+              ]}
+         
+             icon={spaIcon}
+           
+            >
+              <Popup>
+        <h1>{object.properties.NAME}</h1>
+        <p>{object.properties.ADDRESS}</p>
+       </Popup>
+        </Marker>
+          ))}
           
        </MapContainer>
-       <div className="map-col2">
-         <form>
-           <label>Miasto</label>
-
-           <label>Kategoria</label>
-
-         </form>
-       </div>
+       
   </div>
     );
   }
@@ -83,4 +112,3 @@ function MapToShow() {
 
 
 
-//AIzaSyB6KZqznd54q6tYFjmwwdhkXVQbz1gPA0U

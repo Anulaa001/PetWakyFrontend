@@ -9,11 +9,24 @@
     width: 70%;
     height: 400px;
     margin-right: 0;
+    border-radius: 10px;
 }
 
 .maptoshow-cont .map-col2 {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.maptoshow-cont .map-col2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.map-col2 ul li {
+    font-size: 30px;
 }
 .icon-background {
     display: flex;
@@ -24,3 +37,4 @@
     background-color: #FFFF;
     border-radius: 50%;
 }
+

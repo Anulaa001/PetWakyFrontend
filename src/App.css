@@ -22,41 +22,8 @@
 .App-link {
   color: #61dafb;
 }
-.background {
-  display: flex;
-  flex-direction: row;
-  height: 450px;
 
-}
-.background .col-1 {
-  width: 70%;
-  background-image: url('./img/tamara-bellis.jpg');
-  background-size: cover;
-  z-index: 2;
-position: relative;
-opacity: 0.8;
-}
-.background .col-2 {
-  width: 30%;
-  background-color: violet;
-  z-index: 2;
-  position: relative;
-  opacity: 0.5;
-}
-.background .white-box {
-  position: absolute;
-  width: 40%;
-  height: 70px;
-  margin-left: 50%;
-  margin-top: 100px;
-  background-color: white;
-  z-index: 33;
-  border-radius: 10px;
-}
 
-.white-box h1{
-  font-family: 'Reenie Beanie';
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

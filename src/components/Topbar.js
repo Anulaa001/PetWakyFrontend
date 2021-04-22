@@ -13,10 +13,10 @@ const Topbar = props => (
       <ul>
         
         <li>
-          <Link to='/Guide'>Log in</Link>
+          <Link to='/Login'>Log in</Link>
         </li>
         <li>
-          <Link to='/Add'><i id="icon" class='fa fa-plus-square'></i></Link>
+          <Link to='/Ads'><i id="icon" className='fa fa-plus-square'></i></Link>
         </li>
 
 

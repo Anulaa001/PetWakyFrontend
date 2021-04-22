@@ -1,0 +1,39 @@
+.background {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    position: relative;
+  
+  }
+  .background .col-1 {
+    height: 100%;
+    width: 70%;
+    background-image: url('../img/tamara-bellis.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    opacity: 0.8;
+  }
+  .background .col-2 {
+    height: 100%;
+    width: 30%;
+    background-color: violet;
+    z-index: 2;
+    position: relative;
+    opacity: 0.5;
+  }
+  .background .white-box {
+    position: absolute;
+    width: 40%;
+    height: 70px;
+    margin-left: 50%;
+    margin-top: 100px;
+    background-color: white;
+    z-index: 33;
+    border-radius: 10px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

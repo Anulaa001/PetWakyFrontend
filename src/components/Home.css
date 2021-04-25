@@ -3,6 +3,7 @@
     flex-direction: row;
     height: 450px;
     position: relative;
+    z-index: 23;
   
   }
   .background .col-1 {

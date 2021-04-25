@@ -2,10 +2,17 @@ import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import { adsListReducer } from './reducers/adsReducer';
 import { singleAdReducer } from './reducers/singleAdReducer';
-const initialState= {};
+import { userLoginReducer, userRegisterReducer } from './reducers/userReducer';
+const initialState= {
+    userLogin: {
+        userInfo: localStorage.getItem('userInfo')? JSON.parse(localStorage.getItem('userInfo')):null
+    }
+};
 const reducer =combineReducers({
     adsList: adsListReducer,
     singleAd: singleAdReducer,
+    userLogin: userLoginReducer,
+    userRegister: userRegisterReducer,
 })
 
 

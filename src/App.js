@@ -8,6 +8,7 @@ import Register from './components/Register';
 
 import Home from './components/Home';
 import SingleAdScreen from './components/SingleAdScreen';
+import Add from './components/Add';
 
 function App() {
   
@@ -21,6 +22,8 @@ function App() {
 
         <Route exact path="/adsList" component={AdsScreen} />
         <Route exact path="/adsList/:id" component={SingleAdScreen}/>
+        <Route exact path="/add" component={Add}/>
+
 
      
     

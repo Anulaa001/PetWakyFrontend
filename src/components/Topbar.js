@@ -32,7 +32,7 @@ dispatch(logoutAction());
       )}
         </li>
         <li>
-          <Link to='/Ads'><i id="icon" className='fa fa-plus-square'></i></Link>
+          <Link to='/add'><i id="icon" className='fa fa-plus-square'></i></Link>
         </li>
 
 

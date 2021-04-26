@@ -1,3 +1,8 @@
 export const ADS_LIST_REQUEST='ADS_LIST_REQUEST';
 export const ADS_LIST_SUCCESS='ADS_LIST_SUCCESS';
 export const ADS_LIST_FAIL='ADS_LIST_FAIL';
+
+
+export const ADD_REQUEST='ADD_REQUEST';
+export const ADD_SUCCESS='ADD_SUCCESS';
+export const ADD_FAIL='ADD_FAIL';

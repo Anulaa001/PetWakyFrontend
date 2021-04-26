@@ -1,6 +1,6 @@
 import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
-import { adsListReducer } from './reducers/adsReducer';
+import { addReducer, adsListReducer } from './reducers/adsReducer';
 import { singleAdReducer } from './reducers/singleAdReducer';
 import { userLoginReducer, userRegisterReducer } from './reducers/userReducer';
 const initialState= {
@@ -13,6 +13,7 @@ const reducer =combineReducers({
     singleAd: singleAdReducer,
     userLogin: userLoginReducer,
     userRegister: userRegisterReducer,
+    add: addReducer,
 })
 
 

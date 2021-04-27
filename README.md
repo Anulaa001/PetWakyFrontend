@@ -25,9 +25,9 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Features
-*login
-*register
-*listing of ads from database
-*adding ad
-*logout
-*map with pet-friendly object (category, name, address)
+* login
+* register
+* listing of ads from database
+* adding ad
+* logout
+* map with pet-friendly object (category, name, address)

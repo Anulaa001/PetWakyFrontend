@@ -1,0 +1,12 @@
+.error-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color: red;
+    font-size: 30px;
+}
+.error-box i{
+    color: red;
+}

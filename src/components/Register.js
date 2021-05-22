@@ -45,19 +45,19 @@ function Register (props){
                 <h1>
                     Register
                 </h1>
-                    <label htmlFor="userName">Username</label>
-                    <input type="text" id="userName"placeholder="userName" required onChange={ e=> setUserName(e.target.value)}></input>
-                    <label htmlFor="email">E-mail</label>
+                    <label htmlFor="userName"></label>
+                    <input type="text" id="userName"placeholder="UserName" required onChange={ e=> setUserName(e.target.value)}></input>
+                    <label htmlFor="email"></label>
                     <input type="email" id="email"placeholder="E-mail" required onChange={ e=> setEmail(e.target.value)}></input>
-                    <label htmlFor="password">Password</label>
+                    <label htmlFor="password"></label>
                     <input type="password" id="passwdord" placeholder="Password" required onChange={ e=> setPassword(e.target.value)}></input>
-                    <label htmlFor="confirmPassword">Confirm Password</label>
-                    <input type="password" id="confirmPassword" placeholder="confirm password" required onChange={ e=> setConfirmPassword(e.target.value)}></input>
+                    <label htmlFor="confirmPassword"></label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm password" required onChange={ e=> setConfirmPassword(e.target.value)}></input>
                     
                     <button type="submit">Register</button>
                     <div>
                         Already having account?
-                        <Link to="/login">Login</Link>
+                        <span className="link"><Link to="/login">Login</Link></span>
 
                     </div>
                 

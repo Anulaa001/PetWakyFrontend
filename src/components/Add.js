@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from 'axios'
 import { useHistory } from "react-router-dom";
 import './Add.css';
+import AdsScreen from "./AdsScreen";
 
 const Add = () => {
   let history = useHistory();
@@ -48,11 +49,11 @@ const Add = () => {
               onChange={e => onInputChange(e)}
             /></span>
             <span className="input-cont">
-            <label style={{marginRight:"-25px"}}>Description</label>
-            <textarea className="area"
+            <label >Description</label>
+            <input
               type="text"
               placeholder="Short description.."
-              name="Description"
+              name="description"
               value={description}
               onChange={e => onInputChange(e)}
             /></span>
@@ -67,6 +68,7 @@ const Add = () => {
         
           <button >Add Advert</button>
         </form>
+        <AdsScreen/>
       </div>
   );
 };

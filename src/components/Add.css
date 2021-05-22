@@ -5,20 +5,10 @@ form {
     justify-content: center;
     margin-left: 15%;
 }
-.area {
-    width: 80%;  
-    border: 2px solid grey;
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    padding: 1.5rem 2rem;
-    border-radius: 0.2rem;
-    background-color: rgb(255, 255, 255);
-    display: block;
-    transition: all 0.3s;
-    
-    }
+#add_back{
+    height: 100vh;
+}
+
 
 .input-cont {
 display: inline-flex;
@@ -58,4 +48,11 @@ button:hover {
     border: 2px solid violet;
     color:violet;
     cursor: pointer;
+}
+h1 {
+    color: rgb(116, 59, 116);
+}
+.redirect_text {
+    margin-top: 10px;
+    font-style: italic;
 }

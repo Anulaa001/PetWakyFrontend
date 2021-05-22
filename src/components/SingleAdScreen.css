@@ -1,0 +1,36 @@
+
+.redo {
+    margin-top: 150px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    background-color: violet;
+    border:none;
+    border-radius: 10px;
+}
+.redo a{
+    text-decoration: none;
+    color: black;
+}
+.redo:hover {
+    background-color: white;
+    border: 2px solid violet;
+    cursor: pointer;
+    text-decoration: none;
+}
+.redo:hover a:hover{
+    color:violet;
+
+}
+#data-view{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -38,15 +38,15 @@ function Login (props){
                 <h1>
                     Log I n
                 </h1>
-                    <label htmlFor="email">Username</label>
+                    <label htmlFor="email"></label>
                     
                     <input type="email" id="email"placeholder="E-mail" required onChange={ e=> setEmail(e.target.value)}></input>
-                    <label htmlFor="password">Password</label>
+                    <label htmlFor="password"></label>
                     <input type="password" id="passwdord" placeholder="Password" required onChange={ e=> setPassword(e.target.value)}></input>
                     <button type="submit">Log in</button>
-                    <div>
+                    <div >
                         New customer? 
-                        <Link to="/register">Create your account</Link>
+                        <span className="link"><Link to="/register">Create your account</Link></span>
 
                     </div>
                 

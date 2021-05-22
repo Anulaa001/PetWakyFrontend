@@ -29,10 +29,10 @@ function MapToShow() {
         <div className="map-col2">
          <h1>Find pet-friendly place in Trojmiasto</h1>
          <ul >
-           <li><i class='fa fa-bath'></i> Spa</li>
-           <li><i class='fa fa-heartbeat'></i> Vet</li>
-           <li><i class='fa fa-tree'></i> Playground</li>
-           <li><i class='fa fa-shopping-basket'></i> Shop</li>
+           <li><i id="spa" class='fa fa-bath'></i> Spa</li>
+           <li><i id="vet" class='fa fa-heartbeat'></i> Vet</li>
+           <li><i id="park"class='fa fa-tree'></i> Playground</li>
+           <li><i id="shop"class='fa fa-shopping-basket'></i> Shop</li>
          </ul>
 <h2>All places in one map </h2>
 

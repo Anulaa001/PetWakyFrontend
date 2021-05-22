@@ -14,19 +14,23 @@ export default function AdsScreen () {
     }, [dispatch]);
     return (
         <>
-            <div>
+            <div style={{marginTop:'30px'}}>
                 {loading ? 
                     <Loading></Loading>
                 : 
                 error ?
                      <Error>{error}</Error>
                 : 
-                <div>
+                <div style={{display: "flex",flexDirection:"row", flexWrap:"wrap", justifyContent:"space-between"}}>
                     {ads.map((ad)=> (
                             <div key={ad._id}>
-                            <Link to={`/adsList/${ad._id}`}>
+                            <div  style={{width:'400px', height:'100px',padding:'10px', margin: '10px', border:"2px solid violet", borderRadius:'10px', boxShadow:'3px 3px 15px 2px rgba(0,0,0,0.72'}}>
+
+                            <Link style={{textDecoration: 'none', color:'rgb(116, 59, 116)', fontWeight:'bolder'}} to={`/adsList/${ad._id}`}>
                             <h2>{ad.title}</h2>
                             </Link>
+                            <p>{ad.price} PLN/day</p>
+                        </div>
                         </div>
                     ))}
                 </div>

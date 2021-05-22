@@ -38,10 +38,15 @@ label {
     transition: all 0.3s;
   }
   
-  input:placeholder-shown + label {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translateY(-4rem);
-    transform: translateY(-4rem);
-  }
+ .link a{
+   padding: 15px;
+font-style: italic;
+font-size: 17px;
+color: violet;
+text-decoration: none;
+ }
+ .link a:hover {
+   color: darkorchid;
+   font-weight: bold;
+ }
   

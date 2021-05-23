@@ -36,4 +36,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 | 5 | adding ad | the possibility of creating new ad by filling mandatory fields: name (unique), description, price, city | 1 | 
 | 6 | map with pet-friendly object (category, name, address) | Map of the Tricity with marked objects related to pets. There will be marked, among others vets, pet stores, pet spas, pet playgrounds, training centers and more | 1 | 
 
+## Use Case Diagram
+
+![image](https://user-images.githubusercontent.com/48963185/119256854-fa296b00-bbc2-11eb-9e1e-fb7407fa7420.png)
+
+
+## Activity Diagram
+
+# Case #1
+![image](https://user-images.githubusercontent.com/48963185/119256779-a28aff80-bbc2-11eb-97a6-b3570d47e101.png)
 

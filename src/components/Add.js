@@ -20,9 +20,14 @@ const Add = () => {
   };
 
   const onSubmit = async e => {
+    try{
     e.preventDefault();
     await axios.post("http://localhost:3001/adsList/add", ad);
     history.push("/");
+    }
+    catch (error) {
+      alert("Uzupełnij brakujące dane");
+    }
   };
   return (
     <div >

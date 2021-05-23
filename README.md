@@ -61,7 +61,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Case #6 Przeglądanie listy ogłoszeń
 ![image](https://user-images.githubusercontent.com/48963185/119270978-b2750480-bbff-11eb-9205-9fbd731aed75.png)
 
+## Component diagram
 
+
+## Deployment diagram
+![image](https://user-images.githubusercontent.com/48963185/119271978-36c98680-bc04-11eb-91b8-b879d88cb7d3.png)
 
 
 ### SCREENSHOTS

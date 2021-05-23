@@ -38,11 +38,46 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Use Case Diagram
 
-![image](https://user-images.githubusercontent.com/48963185/119256854-fa296b00-bbc2-11eb-9e1e-fb7407fa7420.png)
+![image](https://user-images.githubusercontent.com/48963185/119270518-4abdba00-bbfd-11eb-8c1d-5f0213f8f4fb.png)
 
 
 ## Activity Diagram
 
-# Case #1
+### Case #1 - ogólny
 ![image](https://user-images.githubusercontent.com/48963185/119256779-a28aff80-bbc2-11eb-97a6-b3570d47e101.png)
+
+### Case #2 Szukanie miejsc przyjaznych zwierzętom
+![image](https://user-images.githubusercontent.com/48963185/119269376-b00eac80-bbf7-11eb-80f8-f6fad2a11627.png)
+
+### Case #3 Logowanie
+![image](https://user-images.githubusercontent.com/48963185/119269889-40e68780-bbfa-11eb-9fbe-dad7d051de8c.png)
+
+### Case #4 Rejestracja
+![image](https://user-images.githubusercontent.com/48963185/119270875-337fcc00-bbff-11eb-8cd1-5b92df87b732.png)
+
+### Case #5 Dodanie ogłoszenia
+![image](https://user-images.githubusercontent.com/48963185/119270428-f31f4e80-bbfc-11eb-8f47-4840a8684399.png)
+
+### Case #6 Przeglądanie listy ogłoszeń
+![image](https://user-images.githubusercontent.com/48963185/119270978-b2750480-bbff-11eb-9205-9fbd731aed75.png)
+
+
+
+
+### SCREENSHOTS
+
+## Starting page
+![image](https://user-images.githubusercontent.com/48963185/119271023-ed773800-bbff-11eb-83d7-abdbcfd91476.png)
+![image](https://user-images.githubusercontent.com/48963185/119271038-008a0800-bc00-11eb-8ed4-a9758155bbd8.png)
+
+## Register and Login
+![image](https://user-images.githubusercontent.com/48963185/119271060-2a432f00-bc00-11eb-8db1-ee54e6a5e957.png)
+![image](https://user-images.githubusercontent.com/48963185/119271067-37f8b480-bc00-11eb-8320-80575fe0425b.png)
+
+## Adding ad and list of ads
+![image](https://user-images.githubusercontent.com/48963185/119271097-552d8300-bc00-11eb-9e37-74d2f36728bf.png)
+![image](https://user-images.githubusercontent.com/48963185/119271118-65ddf900-bc00-11eb-8ebb-47599460e51a.png)
+
+
+
 

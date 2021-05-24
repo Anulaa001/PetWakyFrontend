@@ -36,6 +36,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 | 5 | adding ad | the possibility of creating new ad by filling mandatory fields: name (unique), description, price, city | 1 | 
 | 6 | map with pet-friendly object (category, name, address) | Map of the Tricity with marked objects related to pets. There will be marked, among others vets, pet stores, pet spas, pet playgrounds, training centers and more | 1 | 
 
+## Non-functional requirements
+
+| ID | Short name | Description | Priority |
+| --- | --- | --- | --- |
+| 1	| Logo | Logo powinno być umieszczone w lewym górnym rogu	| 2 |
+| 2	| Kolorystyka	| Kolorystyka aplikacji powinna się ograniczać do kolorów białego i fioletowego	| 3 |
+| 3	| Dostępność	| Aplikacja powinna być dostępna na wszystkich przeglądarkach nie starszych wersji niż np.Chrome 68	| 2 |
+| 4	| Responsywny design	| Aplikacja powinna dostosowywać się automatycznie do wielkości ekrany na którym jest wyświetlana |	2 |
+| 5	| Dostępność	| Aplikacja powinna być dostępna 24h/7/365 przez średnio 99,9% czasu |	1 |
+
+
+
 ## Use Case Diagram
 
 ![image](https://user-images.githubusercontent.com/48963185/119270518-4abdba00-bbfd-11eb-8c1d-5f0213f8f4fb.png)

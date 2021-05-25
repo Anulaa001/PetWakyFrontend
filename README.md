@@ -74,6 +74,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ![image](https://user-images.githubusercontent.com/48963185/119270978-b2750480-bbff-11eb-9205-9fbd731aed75.png)
 
 ## Component diagram
+![image](https://user-images.githubusercontent.com/48963185/119469664-dd6a7000-bd47-11eb-98f6-437e6f345fa7.png)
 
 
 ## Deployment diagram

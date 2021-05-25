@@ -101,8 +101,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 Recorder tests were manual tests conducted in local enviroment.
-| ID | Short name | Description | Priority | Testing activities | Testing resultats	Status |
-| --- | --- | --- | --- | --- | --- |
+| ID | Short name | Description | Priority | Testing activities | Testing resultats	| Status |
+| --- | --- | --- | --- | --- | --- | --- |
 | T001	| Markers on map |	Veryfing if all the markers on map are also in database and if the possition is correct |	1	| Showing a whole list from database and going throug each record to compare with markers on map	| All markers should have a corresponding record in database table	| passed |
 | T002	| List of announcements |	Veryfing if all the annoucements that are saved to database table are showned on the website | 1 |	Showing a whole list from database and going throug each record to compare with annoucements showing on the site |	All annoucements should have a corresponding record in database table |	passed |
 | T003	| Adding announcements to the list	| Veryfing if added annoucements are saved to database table and are showned on the website |	1 |	Adding annoucement on the website and checking in database if the record has been added, then checking if its showing on the website |	Added records show in databes and on the website |	passed |

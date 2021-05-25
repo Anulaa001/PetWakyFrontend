@@ -97,4 +97,16 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 
+### TESTS
+
+
+Recorder tests were manual tests conducted in local enviroment.
+| ID | Short name | Description | Priority | Testing activities | Testing resultats	Status |
+| --- | --- | --- | --- | --- | --- |
+| T001	| Markers on map |	Veryfing if all the markers on map are also in database and if the possition is correct |	1	| Showing a whole list from database and going throug each record to compare with markers on map	| All markers should have a corresponding record in database table	| passed |
+| T002	| List of announcements |	Veryfing if all the annoucements that are saved to database table are showned on the website | 1 |	Showing a whole list from database and going throug each record to compare with annoucements showing on the site |	All annoucements should have a corresponding record in database table |	passed |
+| T003	| Adding announcements to the list	| Veryfing if added annoucements are saved to database table and are showned on the website |	1 |	Adding annoucement on the website and checking in database if the record has been added, then checking if its showing on the website |	Added records show in databes and on the website |	passed |
+| T004 |	User registration	| Veryfing if after registration new user is added to the database |	2 |	Adding new user throug register tab and checking if the new user is in database	| New users are shown in database table	| passed |
+| T005	| New user's permissions |	Veryfing if newly registered users have accurate permissions to access database	| 2	| chacking in user permissions if correct permissions are assined (user only hav epermission to add new records to table announcements)	| All users have correctly assigned permissions |	passed |
+| T006	| Users can login |	Veryfing if already registered users can correctly login to their accounts | 2 |	Loging in with already created credentials through login tab |	User can succesfully login on its accout with credentioals |	passed |
 

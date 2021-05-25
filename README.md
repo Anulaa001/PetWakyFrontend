@@ -110,3 +110,5 @@ Recorder tests were manual tests conducted in local enviroment.
 | T005	| New user's permissions |	Veryfing if newly registered users have accurate permissions to access database	| 2	| chacking in user permissions if correct permissions are assined (user only hav epermission to add new records to table announcements)	| All users have correctly assigned permissions |	passed |
 | T006	| Users can login |	Veryfing if already registered users can correctly login to their accounts | 2 |	Loging in with already created credentials through login tab |	User can succesfully login on its accout with credentioals |	passed |
 
+
+Licencja zamknięta, wszelkie prawa zastrzezone

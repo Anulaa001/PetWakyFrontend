@@ -40,11 +40,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 | ID | Short name | Description | Priority |
 | --- | --- | --- | --- |
-| 1	| Logo | Logo powinno być umieszczone w lewym górnym rogu	| 2 |
-| 2	| Kolorystyka	| Kolorystyka aplikacji powinna się ograniczać do kolorów białego i fioletowego	| 3 |
-| 3	| Dostępność	| Aplikacja powinna być dostępna na wszystkich przeglądarkach nie starszych wersji niż np.Chrome 68	| 2 |
-| 4	| Responsywny design	| Aplikacja powinna dostosowywać się automatycznie do wielkości ekrany na którym jest wyświetlana |	2 |
-| 5	| Dostępność	| Aplikacja powinna być dostępna 24h/7/365 przez średnio 99,9% czasu |	1 |
+| 1	| Logo | Logo shoud be placed in the top left-hand corner	| 2 |
+| 2	| Colorway	| The colours of the application should be limited to white and violet | 3 |
+| 3	| Availability	| The application should be available on all browsers not older than e. g. Chrome 68 | 2 |
+| 4	| Responsive design	| The application should automatically adjust to the size of the screen on which it is displayed |	2 |
+| 5	| Availability	| The application should be available 24/7/365 for an average of 99. 9% of the time |	1 |
 
 
 
@@ -55,22 +55,22 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Activity Diagram
 
-### Case #1 - ogólny
+### Case #1 - General
 ![image](https://user-images.githubusercontent.com/48963185/119256779-a28aff80-bbc2-11eb-97a6-b3570d47e101.png)
 
-### Case #2 Szukanie miejsc przyjaznych zwierzętom
+### Case #2 Searching pet-friendly places
 ![image](https://user-images.githubusercontent.com/48963185/119269376-b00eac80-bbf7-11eb-80f8-f6fad2a11627.png)
 
-### Case #3 Logowanie
+### Case #3 Loging in 
 ![image](https://user-images.githubusercontent.com/48963185/119269889-40e68780-bbfa-11eb-9fbe-dad7d051de8c.png)
 
-### Case #4 Rejestracja
+### Case #4 Registration
 ![image](https://user-images.githubusercontent.com/48963185/119270875-337fcc00-bbff-11eb-8cd1-5b92df87b732.png)
 
-### Case #5 Dodanie ogłoszenia
+### Case #5 Adding annoucements
 ![image](https://user-images.githubusercontent.com/48963185/119270428-f31f4e80-bbfc-11eb-8f47-4840a8684399.png)
 
-### Case #6 Przeglądanie listy ogłoszeń
+### Case #6 Browsing the list of announcements
 ![image](https://user-images.githubusercontent.com/48963185/119270978-b2750480-bbff-11eb-9205-9fbd731aed75.png)
 
 ## Component diagram
@@ -111,4 +111,4 @@ Recorder tests were manual tests conducted in local enviroment.
 | T006	| Users can login |	Veryfing if already registered users can correctly login to their accounts | 2 |	Loging in with already created credentials through login tab |	User can succesfully login on its accout with credentioals |	passed |
 
 
-Licencja zamknięta, wszelkie prawa zastrzezone
+Closed source licence, all rights reserved
